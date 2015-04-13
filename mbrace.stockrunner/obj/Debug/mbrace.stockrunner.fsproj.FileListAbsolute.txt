@@ -1,0 +1,12 @@
+c:\src\mbrace.stockticker\mbrace.stockrunner\bin\Debug\mbrace.stockrunner.XML
+c:\src\mbrace.stockticker\mbrace.stockrunner\bin\Debug\mbrace.stockrunner.dll
+c:\src\mbrace.stockticker\mbrace.stockrunner\bin\Debug\mbrace.stockrunner.pdb
+c:\src\mbrace.stockticker\mbrace.stockrunner\bin\Debug\FSharp.Core.dll
+c:\src\mbrace.stockticker\mbrace.stockrunner\bin\Debug\mbrace.stockticker.dll
+c:\src\mbrace.stockticker\mbrace.stockrunner\bin\Debug\Newtonsoft.Json.dll
+c:\src\mbrace.stockticker\mbrace.stockrunner\bin\Debug\mbrace.stockticker.pdb
+c:\src\mbrace.stockticker\mbrace.stockrunner\bin\Debug\FSharp.Core.xml
+c:\src\mbrace.stockticker\mbrace.stockrunner\bin\Debug\Newtonsoft.Json.xml
+c:\src\mbrace.stockticker\mbrace.stockrunner\obj\Debug\mbrace.stockrunner.dll
+c:\src\mbrace.stockticker\mbrace.stockrunner\obj\Debug\mbrace.stockrunner.pdb
+c:\src\mbrace.stockticker\mbrace.stockrunner\obj\Debug\mbrace.stockrunner.fsprojResolveAssemblyReference.cache

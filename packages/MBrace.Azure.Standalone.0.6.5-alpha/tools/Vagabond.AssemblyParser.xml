@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Vagabond.AssemblyParser</name>
+    </assembly>
+    <members>
+        <member name="T:Nessos.Vagabond.AssemblyParser.AssemblyParser">
+            <summary>
+            Dynamic assembly to Cecil tree parser implementation.
+            </summary>
+        </member>
+        <member name="M:Nessos.Vagabond.AssemblyParser.AssemblyParser.Parse(System.Reflection.Assembly,Nessos.Vagabond.AssemblyParser.IAssemblyParserConfig)">
+            <summary>
+            Parse assembly using specified Assembly.
+            </summary>
+            <param name="assembly">Assembly to be parsed.</param>
+            <param name="options">Parsing options configuration object.</param>
+            <returns>Cecil Assembly tree.</returns>
+        </member>
+        <member name="M:Nessos.Vagabond.AssemblyParser.AssemblyParser.Parse(System.Reflection.Assembly)">
+            <summary>
+            Parse assembly using specified Assembly.
+            </summary>
+            <param name="assembly">Assembly to be parsed.</param>
+            <returns>Cecil Assembly tree.</returns>
+        </member>
+        <member name="T:Nessos.Vagabond.AssemblyParser.TypeParseAction">
+            <summary>
+            Dynamic type parse action enumeration.
+            </summary>
+        </member>
+        <member name="F:Nessos.Vagabond.AssemblyParser.TypeParseAction.Ignore">
+            <summary>
+            Ignores specified type.
+            </summary>
+        </member>
+        <member name="F:Nessos.Vagabond.AssemblyParser.TypeParseAction.ParseNested">
+            <summary>
+            Only parse nested types. Nested types will simply keep the same qualified name.
+            </summary>
+        </member>
+        <member name="F:Nessos.Vagabond.AssemblyParser.TypeParseAction.ParseAll">
+            <summary>
+            Parse this and all nested types.
+            </summary>
+        </member>
+        <member name="T:Nessos.Vagabond.AssemblyParser.IAssemblyParserConfig">
+            <summary>
+                Assembly parser configuration object
+            </summary>
+        </member>
+        <member name="M:Nessos.Vagabond.AssemblyParser.IAssemblyParserConfig.MakePublic(System.Reflection.MemberInfo)">
+            <summary>
+            Specifies if specified MemberInfo should be made public.
+            </summary>
+            <param name="member">Member under test.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Nessos.Vagabond.AssemblyParser.IAssemblyParserConfig.EraseMember(System.Reflection.MemberInfo)">
+            <summary>
+            Specified if specified MemberInfo should be erased.
+            </summary>
+            <param name="member">Member under test.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Nessos.Vagabond.AssemblyParser.IAssemblyParserConfig.GetTypeParseAction(System.Type)">
+            <summary>
+            Gets parse action for supplied System.Type
+            </summary>
+            <param name="type">Type under test.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Nessos.Vagabond.AssemblyParser.IAssemblyParserConfig.RemapReference(System.Type,System.Type@)">
+            <summary>
+            Specifies if supplied type reference should be remapped.
+            </summary>
+            <param name="type">Type reference to be checked.</param>
+            <param name="outType">Byref type to be assigned for remapping.</param>
+            <returns>True if remapping is required.</returns>
+        </member>
+        <member name="T:Nessos.Vagabond.AssemblyParser.DefaultAssemblyParserConfig">
+            <summary>
+            Default Assembly parsing configuration
+            </summary>
+        </member>
+    </members>
+</doc>

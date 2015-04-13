@@ -1,0 +1,7 @@
+c:\src\mbrace.stockticker\mbrace.stockticker\obj\Debug\mbrace.stockticker.csprojResolveAssemblyReference.cache
+c:\src\mbrace.stockticker\mbrace.stockticker\bin\Debug\mbrace.stockticker.dll
+c:\src\mbrace.stockticker\mbrace.stockticker\bin\Debug\mbrace.stockticker.pdb
+c:\src\mbrace.stockticker\mbrace.stockticker\bin\Debug\Newtonsoft.Json.dll
+c:\src\mbrace.stockticker\mbrace.stockticker\bin\Debug\Newtonsoft.Json.xml
+c:\src\mbrace.stockticker\mbrace.stockticker\obj\Debug\mbrace.stockticker.dll
+c:\src\mbrace.stockticker\mbrace.stockticker\obj\Debug\mbrace.stockticker.pdb
